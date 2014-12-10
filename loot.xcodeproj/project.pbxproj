@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F1862E1A32048400BA5CC5 /* weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F1862C1A32048400BA5CC5 /* weapon.cpp */; };
 		50F610CE1A22C0F100C5EECF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F610CD1A22C0F100C5EECF /* main.cpp */; };
+		50F610D61A22C10300C5EECF /* loot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F610D41A22C10300C5EECF /* loot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		50F1862C1A32048400BA5CC5 /* weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weapon.cpp; sourceTree = "<group>"; };
+		50F1862D1A32048400BA5CC5 /* weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weapon.h; sourceTree = "<group>"; };
 		50F610CA1A22C0F100C5EECF /* loot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = loot; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F610CD1A22C0F100C5EECF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50F610D41A22C10300C5EECF /* loot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loot.cpp; sourceTree = "<group>"; };
+		50F610D51A22C10300C5EECF /* loot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				50F610CD1A22C0F100C5EECF /* main.cpp */,
+				50F610D41A22C10300C5EECF /* loot.cpp */,
+				50F610D51A22C10300C5EECF /* loot.h */,
+				50F1862C1A32048400BA5CC5 /* weapon.cpp */,
+				50F1862D1A32048400BA5CC5 /* weapon.h */,
 			);
 			path = loot;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F610CE1A22C0F100C5EECF /* main.cpp in Sources */,
+				50F1862E1A32048400BA5CC5 /* weapon.cpp in Sources */,
+				50F610D61A22C10300C5EECF /* loot.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +244,7 @@
 				50F610D31A22C0F100C5EECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
