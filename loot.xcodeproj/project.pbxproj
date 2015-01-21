@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502524371A56ECF60056FEF0 /* shield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 502524351A56ECF60056FEF0 /* shield.cpp */; };
+		5049B2E21A66D9430050F9B1 /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5049B2E01A66D9430050F9B1 /* engine.cpp */; };
+		505581F71A5EE64200DCECE0 /* hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 505581F51A5EE64200DCECE0 /* hero.cpp */; };
+		50F125621A4F32520089D32C /* sword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F125601A4F32520089D32C /* sword.cpp */; };
 		50F1862E1A32048400BA5CC5 /* weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F1862C1A32048400BA5CC5 /* weapon.cpp */; };
 		50F610CE1A22C0F100C5EECF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F610CD1A22C0F100C5EECF /* main.cpp */; };
 		50F610D61A22C10300C5EECF /* loot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50F610D41A22C10300C5EECF /* loot.cpp */; };
@@ -25,6 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		502524351A56ECF60056FEF0 /* shield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shield.cpp; sourceTree = "<group>"; };
+		502524361A56ECF60056FEF0 /* shield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shield.h; sourceTree = "<group>"; };
+		5049B2E01A66D9430050F9B1 /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		5049B2E11A66D9430050F9B1 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		505581F51A5EE64200DCECE0 /* hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hero.cpp; sourceTree = "<group>"; };
+		505581F61A5EE64200DCECE0 /* hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hero.h; sourceTree = "<group>"; };
+		50F125601A4F32520089D32C /* sword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sword.cpp; sourceTree = "<group>"; };
+		50F125611A4F32520089D32C /* sword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sword.h; sourceTree = "<group>"; };
 		50F1862C1A32048400BA5CC5 /* weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weapon.cpp; sourceTree = "<group>"; };
 		50F1862D1A32048400BA5CC5 /* weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weapon.h; sourceTree = "<group>"; };
 		50F610CA1A22C0F100C5EECF /* loot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = loot; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +80,14 @@
 				50F610D51A22C10300C5EECF /* loot.h */,
 				50F1862C1A32048400BA5CC5 /* weapon.cpp */,
 				50F1862D1A32048400BA5CC5 /* weapon.h */,
+				50F125601A4F32520089D32C /* sword.cpp */,
+				50F125611A4F32520089D32C /* sword.h */,
+				502524351A56ECF60056FEF0 /* shield.cpp */,
+				502524361A56ECF60056FEF0 /* shield.h */,
+				505581F51A5EE64200DCECE0 /* hero.cpp */,
+				505581F61A5EE64200DCECE0 /* hero.h */,
+				5049B2E01A66D9430050F9B1 /* engine.cpp */,
+				5049B2E11A66D9430050F9B1 /* engine.h */,
 			);
 			path = loot;
 			sourceTree = "<group>";
@@ -128,9 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502524371A56ECF60056FEF0 /* shield.cpp in Sources */,
 				50F610CE1A22C0F100C5EECF /* main.cpp in Sources */,
+				5049B2E21A66D9430050F9B1 /* engine.cpp in Sources */,
+				50F125621A4F32520089D32C /* sword.cpp in Sources */,
 				50F1862E1A32048400BA5CC5 /* weapon.cpp in Sources */,
 				50F610D61A22C10300C5EECF /* loot.cpp in Sources */,
+				505581F71A5EE64200DCECE0 /* hero.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
